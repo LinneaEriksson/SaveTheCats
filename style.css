@@ -1,21 +1,53 @@
+* {
+  box-sizing: border-box;
+}
 body {
-  background-color: rgb(179, 198, 214);
-  display: grid;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  text-align: center;
+  font-family: monospace;
+  color: rgb(62, 86, 104);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  background-color: rgb(226, 220, 214);
+  height: 100%;
+  width: 50%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .content {
+    display: flex;
+    background-color: rgb(226, 220, 214);
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 .information {
-  background-color: white;
+  width: 200px;
+  margin: 20px;
+  display: block;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 8px;
-  display: grid;
-  width: 160px;
-  padding: 20px;
-  grid-gap: 20px;
-}
-.GridInformation {
-  background-color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 8px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 li {
@@ -23,9 +55,9 @@ li {
 }
 
 img {
-  width: 100px;
+  width: 200px;
 }
 
 .HeadPicture {
-  width: 400px;
+  width: 100%;
 }
