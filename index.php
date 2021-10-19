@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__ . '/header.html';
+require __DIR__ . '/header.php';
 require __DIR__ . '/arrays.php';
 
 ?>
@@ -9,8 +9,11 @@ require __DIR__ . '/arrays.php';
 
   <div class="container">
     <div class="content">
-      <img class="HeadPicture" src="/Pictures/Cat1.jpg">
       <h1>Hemlösa katter</h1>
+      <img class="headPicture" src="/Pictures/Cat1.jpg">
+
+
+
 
 
 
@@ -48,4 +51,13 @@ $date = date("d-y-m");
 
 echo $date;
 
-require __DIR__ . '/footer.html';
+$years =  date('Y', mktime(5, 1, 1, date("m") - 2, date("d") - 23, date("Y") - 2005));
+$years = $years - 2000;
+$months = date('n', mktime(5, 1, 1, date("m") - 2, date("d") - 23, date("Y") - 2005));
+$days =  date('j', mktime(5, 1, 1, date("m") - 2, date("d") - 23, date("Y") - 2005));
+
+echo 'Antal år: ' . $years  . "<br>\n";
+echo 'Antal månader: ' . $months . "<br>\n";
+echo 'Antal dagar: ' . $days . "<br>\n";
+
+require __DIR__ . '/footer.php';
