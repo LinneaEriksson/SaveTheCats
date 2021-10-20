@@ -6,23 +6,26 @@ require __DIR__ . '/arrays.php';
 ?>
 
 <body>
-
+  <h1>Hemlösa katter</h1>
   <div class="container">
     <div class="content">
-      <h1>Hemlösa katter</h1>
-      <img class="headPicture" src="/Pictures/Cat1.jpg">
+      <img class="headPicture" src="/Pictures/Cat2.jpg">
+
+      <p class="AboutUs">Det här är en text som förklarar lite om organisationen. Hjälp våra katter tack såmycket hejdå.</p>
+      <?php
 
 
 
 
 
 
-      <?php foreach ($cats as $cat) :
+      foreach ($cats as $cat) :
         $image = $cat['img'];
-        $name = $cat['Namn'];
-        $rase = $cat['Ras'];
-        $age = $cat['Ålder'];
-        $informations = $cat['Information'];
+        $name = $cat['namn'];
+        $rase = $cat['ras'];
+        $age = $cat['ålder'];
+        $informations = $cat['information'];
+        $castration = $cat['kastrerad']
 
       ?>
         <p class="information">
@@ -34,30 +37,26 @@ require __DIR__ . '/arrays.php';
           ?><br>
           <?php echo "Ras: $rase";
           ?><br>
-          <?php echo "Ålder: $age";
+          <?php echo "Ålder: $age år";
           ?><br>
           <?php echo "Information: $informations";
-          ?><br>
+          ?><br><?php
+
+                if ($castration === true) {
+                  echo "$name är kastrerad";
+                } else {
+                  echo "$name är inte kastrerad";
+                }; ?>
 
 
         </p><?php
           endforeach; ?>
-
+      <p class="Quote">"Här tänker jag mig ett quote"</p>
+      <img class="headPicture" src="/Pictures/Cat1.jpg">
     </div>
   </div>
 </body>
 <?php
-$date = date("d-y-m");
 
-echo $date;
-
-$years =  date('Y', mktime(5, 1, 1, date("m") - 2, date("d") - 23, date("Y") - 2005));
-$years = $years - 2000;
-$months = date('n', mktime(5, 1, 1, date("m") - 2, date("d") - 23, date("Y") - 2005));
-$days =  date('j', mktime(5, 1, 1, date("m") - 2, date("d") - 23, date("Y") - 2005));
-
-echo 'Antal år: ' . $years  . "<br>\n";
-echo 'Antal månader: ' . $months . "<br>\n";
-echo 'Antal dagar: ' . $days . "<br>\n";
 
 require __DIR__ . '/footer.php';

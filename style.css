@@ -30,7 +30,20 @@ h1 {
   justify-content: center;
 }
 
-@media (max-width: 600px) {
+.information {
+  background-color: white;
+  padding: 10px;
+  width: 200px;
+  margin: 20px;
+  /* display: block; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 850px) {
   .content {
     display: flex;
     background-color: rgb(226, 220, 214);
@@ -39,17 +52,23 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  .information {
+    background-color: white;
+    padding: 10px;
+    width: 300px;
+    margin: 20px;
+    /* display: block; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
 
-.information {
-  width: 200px;
-  margin: 20px;
-  display: block;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 14px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+.information:hover {
+  box-shadow: 5px 5px 5px rgb(88, 88, 88);
 }
 
 li {
@@ -57,9 +76,25 @@ li {
 }
 
 img {
-  width: 200px;
+  width: 100%;
 }
 
 .headPicture {
   width: 100%;
+}
+
+.AboutUs {
+  font-size: 20px;
+  width: 95%;
+  background-color: white;
+  padding: 20px;
+}
+
+.Quote {
+  text-align: center;
+  font-size: 20px;
+  width: 95%;
+  background-color: white;
+  padding: 20px;
+  font-style: italic;
 }
