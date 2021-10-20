@@ -9,7 +9,7 @@ $cats = [
     'ras' => 'Huskatt',
     'ålder' => 10,
     'information' => 'Tasse är en tuff katt som vill komma till ett hem utan småbarn. Tasse behöver mycket eget utrymme och vill umgås på egna villkor.',
-    'kastrerad' => false,
+    'kastrerad' => 'nej',
   ],
   [
     'img' => '/Pictures/Cat4.jpg',
@@ -17,7 +17,7 @@ $cats = [
     'ras' => 'Huskatt',
     'ålder' => 8,
     'information' => 'Nasse är en världens gosigaste katt som vill komma till ett hem med mycket kärlek. Nasse vill vara en innekatt i sitt nya hem och behöver hamna i ett hem utan andra katter.',
-    'kastrerad' => true,
+    'kastrerad' => 'ja',
   ],
   [
     'img' => '/Pictures/Cat5.jpg',
@@ -25,7 +25,7 @@ $cats = [
     'ras' => 'Sibirisk katt/Main Coon',
     'ålder' => 1,
     'information' => 'Här har vi ett riktigt busfrö. Riffe vill bo i ett hem med vuxna ägare då han blir stressad utav barn. Riffe får gärna vara ute när han blir äldre.',
-    'kastrerad' => true,
+    'kastrerad' => 'ja',
   ],
   [
     'img' => '/Pictures/Cat6.jpg',
@@ -33,7 +33,7 @@ $cats = [
     'ras' => 'Huskatt',
     'ålder' => 2,
     'information' => 'Chewie har haft en tuff start på livet. Han är ändå världens snällaste och vill komma till ett hem där han får stå i centrum för att våga ta plats.',
-    'kastrerad' => false,
+    'kastrerad' => 'nej',
   ],
   [
     'img' => '/Pictures/Cat7.jpg',
@@ -41,7 +41,7 @@ $cats = [
     'ras' => 'Brittisk korthår',
     'ålder' => 4,
     'information' => 'Är ni på jakt efter en riktig familjekatt så kan ni sluta leta nu. Moltas älskar alla människor han möter och vill komma till en stor familj.',
-    'kastrerad' => true,
+    'kastrerad' => 'ja',
   ],
   [
     'img' => '/Pictures/Cat8.jpg',
@@ -49,7 +49,7 @@ $cats = [
     'ras' => 'Huskatt',
     'ålder' => 7,
     'information' => 'Curry vill ha en ägare som är hemma mycket. Är du kanske pensionär eller jobbar du hemifrån? Perfekt, då vill Curry göra dig sällskap om dagarna.',
-    'kastrerad' => true,
+    'kastrerad' => 'ja',
   ],
   [
     'img' => '/Pictures/Cat9.jpg',
@@ -57,9 +57,20 @@ $cats = [
     'ras' => 'Huskatt',
     'ålder' => 5,
     'information' => 'Bor du på en bondgård utan stora vägar i närheten så skulle Max kunna vara katten för dig. Max vill kunna gå ut och in som han själv vill.',
-    'kastrerad' => true,
+    'kastrerad' => 'ja',
+  ],
+  [
+    'img' => '/Pictures/Cat10.jpg',
+    'namn' => 'Mr Mjau',
+    'ras' => 'Ragdoll',
+    'ålder' => 4,
+    'information' => 'Mr Mjau är en katt med stor aptit. Han gör vad som helst för mat och kan en del roliga tricks. Mr Mjau vill vara innekatt i sitt nya hem.',
+    'kastrerad' => 'ja',
   ]
 ];
+
+$countCats = (count($cats));
+
 
 
 $quotes = [
@@ -68,6 +79,7 @@ $quotes = [
   '"Att bada en katt kräver råstyrka, uthålighet, kurage – och en katt. Den sista ingrediensen brukar vara svårast att få tag på."',
   '"De som hatar katter återföds som möss i sitt nästa liv"',
 ];
+
 $rand_keys = array_rand($quotes, 2);
 
 
