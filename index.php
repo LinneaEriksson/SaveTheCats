@@ -51,7 +51,11 @@ require __DIR__ . '/arrays.php';
 
         </p><?php
           endforeach; ?>
-      <p class="Quote">"Här tänker jag mig ett quote"</p>
+      <p class="Quote">
+        <?php
+        echo $quotes[$rand_keys[0]] . "\n";
+        ?>
+      </p>
       <img class="headPicture" src="/Pictures/Cat1.jpg">
     </div>
   </div>

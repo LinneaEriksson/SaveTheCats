@@ -62,4 +62,13 @@ $cats = [
 ];
 
 
+$quotes = [
+  '"För tusentals år sedan dyrkades katter som gudar. Detta har katterna aldrig glömt."',
+  '"Katter är smartare än hundar. Man kan inte få åtta katter att dra en släde genom snö."',
+  '"Att bada en katt kräver råstyrka, uthålighet, kurage – och en katt. Den sista ingrediensen brukar vara svårast att få tag på."',
+  '"De som hatar katter återföds som möss i sitt nästa liv"',
+];
+$rand_keys = array_rand($quotes, 2);
+
+
 $date = date("y-m-d");
