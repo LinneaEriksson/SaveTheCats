@@ -80,7 +80,21 @@ $quotes = [
   '"De som hatar katter återföds som möss i sitt nästa liv"',
 ];
 
-$rand_keys = array_rand($quotes, 2);
+$randomQuote = array_rand($quotes, 2);
+
+
+$cities = [
+  'Stockholm,',
+  'Göteborg,',
+  'Malmö,',
+  'Helsingborg,',
+  'Uppsala,',
+  'Lindköping,',
+  'Gävle'
+];
+
+
+
 
 
 $date = date("y-m-d");

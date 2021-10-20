@@ -13,7 +13,10 @@ require __DIR__ . '/arrays.php';
       <img class="headPicture" src="/Pictures/Cat2.jpg">
 
 
-      <p class="aboutUs">Hemlösa katter är en ideell förening som arbetar med att förbättra livet och hitta nya hem åt hemlösa katter. Enligt oss är alla katters liv värda lika mycket och avlivning kommer i absolut sista hand. På grund utav detta är våra veterinärkostnader höga och vi tar tacksamt emot gåvor via swish eller bank-giro.
+      <p class="aboutUs">Hemlösa katter är en ideell förening som arbetar med att förbättra livet och hitta nya hem åt hemlösa katter.
+        Enligt oss är alla katters liv värda lika mycket och avlivning kommer i absolut sista hand. På grund utav detta är våra
+        veterinärkostnader höga och vi tar tacksamt emot gåvor via swish eller bank-giro.
+
         <br>
         <br>
         Just nu finns det <?php echo $countCats; ?> katter hos oss för omplacering. Du kan läsa mer om katterna nedanför.
@@ -61,7 +64,7 @@ require __DIR__ . '/arrays.php';
           endforeach; ?>
       <p class="Quote">
         <?php
-        echo $quotes[$rand_keys[0]] . "\n";
+        echo $quotes[$randomQuote[0]] . "\n";
         ?>
       </p>
       <img class="headPicture" src="/Pictures/Cat1.jpg">
