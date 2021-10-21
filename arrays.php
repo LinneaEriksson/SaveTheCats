@@ -95,6 +95,41 @@ $cities = [
 
 
 
+$adoptedCats = [
+  [
+    'img' => '/Pictures/Cat11.webp',
+    'namn' => 'Tasse',
+  ],
+  [
+    'img' => '/Pictures/Cat12.webp',
+    'namn' => 'Tasse',
+  ],
+  [
+    'img' => '/Pictures/Cat13.webp',
+    'namn' => 'Tasse',
+  ],
+  [
+    'img' => '/Pictures/Cat14.webp',
+    'namn' => 'Tasse',
+  ],
+  [
+    'img' => '/Pictures/Cat15.webp',
+    'namn' => 'Tasse',
+  ],
+  [
+    'img' => '/Pictures/Cat16.webp',
+    'namn' => 'Tasse',
+  ],
+  [
+    'img' => '/Pictures/Cat17.webp',
+    'namn' => 'Tasse',
+  ],
+  [
+    'img' => '/Pictures/Cat18.webp',
+    'namn' => 'Tasse',
+  ],
+];
+
 
 
 $date = date("y-m-d");

@@ -62,12 +62,30 @@ require __DIR__ . '/arrays.php';
 
         </p><?php
           endforeach; ?>
+      <p class="Quote">Katter som har hittat sina nya hem:
+
+      </p>
+
+      <?php
+
+      foreach ($adoptedCats as $adopted) :
+        $nameAdopted = $adopted['namn'];
+        $picture = $adopted['img'];
+
+      ?> <img class="adoptedCatPictures" src=" <?php
+                                                echo "$picture";
+                                                ?>"><?php
+
+                                                  endforeach;
+                                                    ?>
+
       <p class="Quote">
         <?php
         echo $quotes[$randomQuote[0]] . "\n";
         ?>
       </p>
       <img class="headPicture" src="/Pictures/Cat1.jpg">
+
     </div>
   </div>
 </body>
@@ -75,3 +93,4 @@ require __DIR__ . '/arrays.php';
 
 
 require __DIR__ . '/footer.php';
+?>
