@@ -43,6 +43,16 @@ h1 {
   flex-wrap: wrap;
 }
 
+.information .informationFatText {
+  font-weight: 900;
+  style: none;
+}
+
+.adoptedCat .informationFatText {
+  font-weight: 700;
+  style: none;
+}
+
 @media (max-width: 850px) {
   .content {
     display: flex;

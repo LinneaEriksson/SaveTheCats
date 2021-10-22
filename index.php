@@ -39,13 +39,13 @@ require __DIR__ . '/arrays.php';
         $castration = $cat['kastrerad']
 
       ?>
-        <p class="information">
+        <div class="information">
 
 
           <img src=" <?php echo "$image";
                       ?>">
-          <?php echo "Namn: $name";
-          ?><br>
+          <p class="informationFatText"><?php echo $name;
+                                        ?></p><br>
           <?php echo "Ras: $rase";
           ?><br>
           <?php echo "Ålder: $age år";
@@ -60,8 +60,8 @@ require __DIR__ . '/arrays.php';
                 }; ?>
 
 
-        </p><?php
-          endforeach; ?>
+        </div><?php
+            endforeach; ?>
       <p class="Quote">Katter som har hittat sina nya hem:
 
       </p>
@@ -72,16 +72,15 @@ require __DIR__ . '/arrays.php';
         $nameAdopted = $adopted['namn'];
         $picture = $adopted['img'];
 
-      ?> <p class="adoptedCat"><img class="adoptedCatPictures" src=" <?php
-                                                                      echo "$picture"; ?>">
-          <br>
-          <?php
-          echo $nameAdopted;
-          ?>
-        </p><?php
+      ?> <div class="adoptedCat"><img class="adoptedCatPictures" src=" <?php
+                                                                        echo "$picture"; ?>">
+          <p class="informationFatText"><?php
+                                        echo $nameAdopted;
+                                        ?></p>
+        </div><?php
 
-          endforeach;
-            ?>
+            endforeach;
+              ?>
 
       <p class="Quote">
         <?php
