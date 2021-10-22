@@ -72,12 +72,16 @@ require __DIR__ . '/arrays.php';
         $nameAdopted = $adopted['namn'];
         $picture = $adopted['img'];
 
-      ?> <img class="adoptedCatPictures" src=" <?php
-                                                echo "$picture";
-                                                ?>"><?php
+      ?> <p class="adoptedCat"><img class="adoptedCatPictures" src=" <?php
+                                                                      echo "$picture"; ?>">
+          <br>
+          <?php
+          echo $nameAdopted;
+          ?>
+        </p><?php
 
-                                                  endforeach;
-                                                    ?>
+          endforeach;
+            ?>
 
       <p class="Quote">
         <?php

@@ -98,7 +98,7 @@ $cities = [
 $adoptedCats = [
   [
     'img' => '/Pictures/Cat11.webp',
-    'namn' => 'Tasse',
+    'namn' => 'Lusse',
   ],
   [
     'img' => '/Pictures/Cat12.webp',
@@ -110,7 +110,7 @@ $adoptedCats = [
   ],
   [
     'img' => '/Pictures/Cat14.webp',
-    'namn' => 'Tasse',
+    'namn' => 'Musse',
   ],
   [
     'img' => '/Pictures/Cat15.webp',
