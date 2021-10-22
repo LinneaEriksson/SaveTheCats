@@ -102,31 +102,31 @@ $adoptedCats = [
   ],
   [
     'img' => '/Pictures/Cat12.webp',
-    'namn' => 'Tasse',
+    'namn' => 'Mimmi',
   ],
   [
     'img' => '/Pictures/Cat13.webp',
-    'namn' => 'Tasse',
+    'namn' => 'Simba',
   ],
   [
     'img' => '/Pictures/Cat14.webp',
-    'namn' => 'Musse',
+    'namn' => 'Missan',
   ],
   [
     'img' => '/Pictures/Cat15.webp',
-    'namn' => 'Tasse',
+    'namn' => 'Herr frukt',
   ],
   [
     'img' => '/Pictures/Cat16.webp',
-    'namn' => 'Tasse',
+    'namn' => 'Snorklan',
   ],
   [
     'img' => '/Pictures/Cat17.webp',
-    'namn' => 'Tasse',
+    'namn' => 'Mumin',
   ],
   [
     'img' => '/Pictures/Cat18.webp',
-    'namn' => 'Tasse',
+    'namn' => 'Saffran',
   ],
 ];
 
