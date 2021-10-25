@@ -4,7 +4,7 @@
   <div class="footer">
     <p class="footerText">
       <?php echo $InformationsAboutSavedAnimals ?><br>
-      Vi finns i följande städer:
+      <?php echo $Title ?> finns i följande städer:
       <?php
       foreach ($cities as $city) {
         echo "$city ";

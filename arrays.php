@@ -142,3 +142,11 @@ function InformationSaved(string $year, string $animals, int $number): string
 }
 
 $InformationsAboutSavedAnimals = InformationSaved('1 januari 2021', 'katter', 49);
+
+
+function TheSiteName(string $nameOfCompany): string
+{
+  return "$nameOfCompany";
+}
+
+$Title = TheSiteName('Hemlösa katter');
