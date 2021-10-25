@@ -8,10 +8,11 @@ body {
 
 h1 {
   width: 100%;
-  height: 50px;
+  font-size: 80px;
+  font-family: 'Lobster Two';
   text-align: center;
-  font-family: monospace;
   color: rgb(62, 86, 104);
+  margin: 0px;
 }
 
 .container {
@@ -35,7 +36,6 @@ h1 {
   padding: 10px;
   width: 200px;
   margin: 20px;
-  /* display: block; */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
   display: flex;
@@ -49,6 +49,22 @@ h1 {
 
 .adoptedCat .informationFatText {
   font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.adoptedCatPictures {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  background-color: white;
+  object-fit: cover;
+}
+
+.adoptedCat {
+  background-color: white;
+  margin: 20px;
+  padding: 0px;
+  text-align: center;
 }
 
 @media (max-width: 850px) {
@@ -66,12 +82,17 @@ h1 {
     padding: 10px;
     width: 300px;
     margin: 20px;
-    /* display: block; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+  }
+
+  .adoptedCatPictures {
+    width: 150px;
+    height: 150px;
+    padding: 5px;
   }
 }
 
@@ -110,20 +131,4 @@ img {
   background-color: white;
   padding: 20px;
   font-style: italic;
-}
-
-.adoptedCatPictures {
-  width: 200px;
-  height: 200px;
-  padding: 10px;
-  background-color: white;
-  /* margin: 10px; */
-  object-fit: cover;
-}
-
-.adoptedCat {
-  background-color: white;
-  margin: 20px;
-  padding: 0px;
-  text-align: center;
 }

@@ -138,7 +138,7 @@ $date = date("y-m-d");
 
 function InformationSaved(string $year, string $animals, int $number): string
 {
-  return "Sedan $year har vi hittat nya hem åt $number $animals. Se bilder på några utav katterna nedan:";
+  return "Sedan $year har vi hittat nya hem åt $number $animals.";
 }
 
 $InformationsAboutSavedAnimals = InformationSaved('1 januari 2021', 'katter', 49);
