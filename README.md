@@ -2,11 +2,14 @@
 
 # Save the cats
 
-Text about the project and why it exists. This would also be a great place to link the project on One.com.
+This is our first school project that we upload on github. My website is about homeless cats (all made up). The website should countain at least two loops, two functions and different types of arrays among other things. You can see my website if you go to www.linneaannaeriksson.se/???
 
 # Installation
 
-Add the installation instructions.
+1. You can clone this repo and open it with your favourite code-editor.
+2. Open a localhost in your terminal by writing: php -S localhost:8000
+3. Visit the localhost in your browser.
+4. Enjoy!
 
 # Code Review
 
