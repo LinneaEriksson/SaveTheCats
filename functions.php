@@ -6,21 +6,21 @@ declare(strict_types=1);
 
 $randomQuote = array_rand($quotes, 2);
 
-// Hämtar ett random quote från min Quote array varje gång man laddar om sidan. 
+// Fetch a random quote from my Quote array each time the page reloads. 
 
 
 
 
 $countCats = (count($cats));
 
-// Räknar antalet katter från min cats-array.
+// Counts the number of cats from my cats array. 
 
 
 
 
 $date = date("y-m-d");
 
-// Datumfunktion.
+// Date function.
 
 
 
@@ -32,7 +32,7 @@ function InformationSaved(string $year, string $animals, int $number): string
 
 $InformationsAboutSavedAnimals = InformationSaved('1 januari 2021', 'katter', 53);
 
-// Funktion för att kunna ändra hur många katter som räddats samt andra värden lätt på hemsidan. 
+// Function to be able to change how many cats that has been saved and other values to the site.
 
 
 
@@ -45,4 +45,4 @@ function TheSiteName(string $nameOfCompany): string
 $Title = TheSiteName('Hemlösa katter');
 
 
-// Funktion för att skriva ut namnet på hemsidan. 
+// Function to write the site name on the website.
