@@ -69,7 +69,8 @@ $cats = [
   ]
 ];
 
-$countCats = (count($cats));
+
+
 
 
 
@@ -80,7 +81,8 @@ $quotes = [
   '"De som hatar katter återföds som möss i sitt nästa liv"',
 ];
 
-$randomQuote = array_rand($quotes, 2);
+
+
 
 
 $cities = [
@@ -92,6 +94,7 @@ $cities = [
   'Lindköping,',
   'Gävle'
 ];
+
 
 
 
@@ -141,7 +144,7 @@ function InformationSaved(string $year, string $animals, int $number): string
   return "Sedan $year har vi hittat nya hem åt $number $animals.";
 }
 
-$InformationsAboutSavedAnimals = InformationSaved('1 januari 2021', 'katter', 49);
+$InformationsAboutSavedAnimals = InformationSaved('1 januari 2021', 'katter', 53);
 
 
 function TheSiteName(string $nameOfCompany): string
