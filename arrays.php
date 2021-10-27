@@ -5,6 +5,7 @@ declare(strict_types=1);
 $cats = [
   [
     'img' => '/Pictures/Cat3.jpg',
+    'alt' => 'En vit katt med stora gröna ögon sitter framför några krukväxter',
     'namn' => 'Tasse',
     'ras' => 'Huskatt',
     'ålder' => 10,
@@ -13,6 +14,7 @@ $cats = [
   ],
   [
     'img' => '/Pictures/Cat4.jpg',
+    'alt' => 'En helvit katt som sitter i en biege soffa och kollar in i kameran.',
     'namn' => 'Nasse',
     'ras' => 'Huskatt',
     'ålder' => 8,
@@ -21,6 +23,7 @@ $cats = [
   ],
   [
     'img' => '/Pictures/Cat5.jpg',
+    'alt' => 'En orange katt som ligger på ett träbord och kollar upp mot taket.',
     'namn' => 'Riffe',
     'ras' => 'Sibirisk katt/Main Coon',
     'ålder' => 1,
@@ -29,6 +32,7 @@ $cats = [
   ],
   [
     'img' => '/Pictures/Cat6.jpg',
+    'alt' => 'En katt med brun och vit päls som kollar in kameran samtidigt som den jamar. Katten har en gul scarf på sig.',
     'namn' => 'Chewie',
     'ras' => 'Huskatt',
     'ålder' => 2,
@@ -37,6 +41,7 @@ $cats = [
   ],
   [
     'img' => '/Pictures/Cat7.jpg',
+    'alt' => 'En helt grå katt som sitter ned och ser lite ledsen ut. Katten har gula ögon. Bakgrunden är grå',
     'namn' => 'Moltas',
     'ras' => 'Brittisk korthår',
     'ålder' => 4,
@@ -45,6 +50,7 @@ $cats = [
   ],
   [
     'img' => '/Pictures/Cat8.jpg',
+    'alt' => 'En orange katt som står på golvet och sträcker på sig med framtassarna sträckta rakt fram och ståendes på bakbenen',
     'namn' => 'Curry',
     'ras' => 'Huskatt',
     'ålder' => 7,
@@ -53,6 +59,7 @@ $cats = [
   ],
   [
     'img' => '/Pictures/Cat9.jpg',
+    'alt' => 'En katt som sitter på ett staket utomhus med träd i bakgrunden. Katten är brun och randig med gula ögon.',
     'namn' => 'Max',
     'ras' => 'Huskatt',
     'ålder' => 5,
@@ -61,6 +68,7 @@ $cats = [
   ],
   [
     'img' => '/Pictures/Cat10.jpg',
+    'alt' => 'En vit/grå katt som halvsitter i en grå soffa och kollar ner mot marken.',
     'namn' => 'Mr Mjau',
     'ras' => 'Ragdoll',
     'ålder' => 4,
@@ -102,54 +110,41 @@ $adoptedCats = [
   [
     'img' => '/Pictures/Cat11.webp',
     'namn' => 'Lusse',
+    'alt' => 'En vit katt med stora gula ögon och öppen mun som kollar ovanför kameran.',
   ],
   [
     'img' => '/Pictures/Cat12.webp',
     'namn' => 'Mimmi',
+    'alt' => 'En katt som ligger på en trästol och tar det lugnt. Katten är grå med lite vitt i ansiktet.',
   ],
   [
     'img' => '/Pictures/Cat13.webp',
     'namn' => 'Simba',
+    'alt' => 'En orange katt som ligger ner på golvet och blundar.',
   ],
   [
     'img' => '/Pictures/Cat14.webp',
     'namn' => 'Missan',
+    'alt' => 'En vit och orange katt som sitter i ett fönster.',
   ],
   [
     'img' => '/Pictures/Cat15.webp',
     'namn' => 'Herr frukt',
+    'alt' => 'En randig katt som är svart och brunhårig som ligger ner i soffan och kollar rakt fram.',
   ],
   [
     'img' => '/Pictures/Cat16.webp',
     'namn' => 'Snorklan',
+    'alt' => 'En helgrå katt med grön/gula ögon som sitter på golvet och kollar upp över kameran.',
   ],
   [
     'img' => '/Pictures/Cat17.webp',
     'namn' => 'Mumin',
+    'alt' => 'En orange och vit katt med gröna ögon som sitter i en korg med tassarna fram.',
   ],
   [
     'img' => '/Pictures/Cat18.webp',
     'namn' => 'Saffran',
+    'alt' => 'En vit katt med brun/gråa fläckar som går mot kameran med svansen upp i luften.',
   ],
 ];
-
-
-
-$date = date("y-m-d");
-
-
-
-function InformationSaved(string $year, string $animals, int $number): string
-{
-  return "Sedan $year har vi hittat nya hem åt $number $animals.";
-}
-
-$InformationsAboutSavedAnimals = InformationSaved('1 januari 2021', 'katter', 53);
-
-
-function TheSiteName(string $nameOfCompany): string
-{
-  return "$nameOfCompany";
-}
-
-$Title = TheSiteName('Hemlösa katter');

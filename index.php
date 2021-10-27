@@ -13,7 +13,7 @@ require __DIR__ . '/functions.php';
   <h1><?php echo $Title ?></h1>
   <div class="container">
     <div class="content">
-      <img class="headPicture" src="/Pictures/Cat2.jpg">
+      <img class="headPicture" src="/Pictures/Cat2.jpg" alt="En bild på en svart och en ljushårig katt som sitter nära vaarandra och kollar åt sidan båda två.">
 
 
       <p class="aboutUs"><?php echo $Title ?> är en ideell förening som arbetar med att förbättra livet och hitta nya hem åt hemlösa katter. Enligt oss är alla katters liv värda lika mycket och avlivning kommer i absolut sista hand. På grund utav detta är våra veterinärkostnader höga och vi tar tacksamt emot gåvor via swish eller bank-giro.
@@ -34,6 +34,7 @@ require __DIR__ . '/functions.php';
 
       foreach ($cats as $cat) :
         $image = $cat['img'];
+        $altText = $cat['alt'];
         $name = $cat['namn'];
         $rase = $cat['ras'];
         $age = $cat['ålder'];
@@ -45,7 +46,7 @@ require __DIR__ . '/functions.php';
 
 
           <img src=" <?php echo "$image";
-                      ?>">
+                      ?>" alt=" <?php echo $altText; ?> ">
           <p class="informationFatText"><?php echo $name;
                                         ?></p><br>
           <?php echo "Ras: $rase";
@@ -73,9 +74,10 @@ require __DIR__ . '/functions.php';
       foreach ($adoptedCats as $adopted) :
         $nameAdopted = $adopted['namn'];
         $picture = $adopted['img'];
+        $altAdopted = $adopted['alt'];
 
       ?> <div class="adoptedCat"><img class="adoptedCatPictures" src=" <?php
-                                                                        echo "$picture"; ?>">
+                                                                        echo "$picture"; ?>" alt=" <?php echo $altAdopted; ?> ">
           <p class="informationFatText"><?php
                                         echo $nameAdopted;
                                         ?></p>
@@ -89,7 +91,7 @@ require __DIR__ . '/functions.php';
         echo $quotes[$randomQuote[0]] . "\n";
         ?>
       </p>
-      <img class="headPicture" src="/Pictures/Cat1.jpg">
+      <img class="headPicture" src="/Pictures/Cat1.jpg" alt="Bilden är i svartvitt på en svart katt som sitter i en gränd. Katten ser ensam ut.">
 
 
     </div>
