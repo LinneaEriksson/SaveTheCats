@@ -2,7 +2,7 @@
 
 # Save the cats
 
-This is our first school project that we upload on github. My website is about homeless cats (all made up). The website should countain at least two loops, two functions and different types of arrays among other things. You can see my website if you go to www.linneaannaeriksson.se/???
+This is our first school project that we upload on github. My website is about homeless cats (all made up). The website should countain at least two loops, two functions and different types of arrays among other things. You can visit my website if you go to www.linneaannaeriksson.se
 
 # Installation
 
