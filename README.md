@@ -13,7 +13,7 @@ This is our first school project that we upload on github. My website is about h
 
 # Code Review
 
-Code review written by [Jane Doh](https://github.com/username).
+Code review written by [Neo Lejondahl](https://github.com/NeoIsRecursive).
 
 1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
 2. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
