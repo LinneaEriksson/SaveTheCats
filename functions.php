@@ -11,7 +11,7 @@ $randomQuote = array_rand($quotes, 2);
 
 
 
-$countCats = (count($cats));
+$countCats = count($cats);
 
 // Counts the number of cats from my cats array. 
 
@@ -45,4 +45,4 @@ function TheSiteName(string $nameOfCompany): string
 $Title = TheSiteName('Hemlösa katter');
 
 
-// Function to write the site name on the website.
+// Function to write the site name.

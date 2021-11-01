@@ -13,9 +13,9 @@
       <br>
       <?php
       echo "Sidan uppdaterades senast: $date";
-
       ?>
     </p>
-
   </div>
+
+
 </footer>

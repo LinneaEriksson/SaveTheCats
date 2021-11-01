@@ -17,15 +17,13 @@ require __DIR__ . '/functions.php';
 
 
       <article class="aboutUs">
-        <h2>Om oss</h2><br>
+        <h2>Om oss</h2>
+        <br>
         <p class="aboutUsText">
           <?php echo $Title ?> är en ideell förening som arbetar med att förbättra livet och hitta nya hem åt hemlösa katter. Enligt oss är alla katters liv värda lika mycket och avlivning kommer i absolut sista hand. På grund utav detta är våra veterinärkostnader höga och vi tar tacksamt emot gåvor via swish eller bank-giro.
-
-
           <br>
           <br>
           Just nu finns det <?php echo $countCats; ?> katter hos oss för omplacering. Du kan läsa mer om katterna nedanför.
-
         </p>
       </article>
       <?php
@@ -66,11 +64,15 @@ require __DIR__ . '/functions.php';
                 }; ?>
 
 
-        </div><?php
-            endforeach; ?>
-      <p class="Quote"><?php echo "$InformationsAboutSavedAnimals Se bilder på några utav katterna nedan:"; ?>
+        </div>
+      <?php
+      endforeach; ?>
 
-      </p>
+
+
+      <p class="Quote"><?php echo "$InformationsAboutSavedAnimals Se bilder på några utav katterna nedan:"; ?></p>
+
+
 
       <?php
 
@@ -83,25 +85,30 @@ require __DIR__ . '/functions.php';
                                                                         echo "$picture"; ?>" alt=" <?php echo $altAdopted; ?> ">
           <p class="informationFatText"><?php
                                         echo $nameAdopted;
-                                        ?></p>
-        </div><?php
+                                        ?>
+          </p>
+        </div>
+      <?php
 
-            endforeach;
-              ?>
+      endforeach;
+      ?>
 
       <p class="Quote">
         <?php
         echo $quotes[$randomQuote[0]] . "\n";
         ?>
       </p>
+
+
       <img class="headPicture" src="/Pictures/Cat1.jpg" alt="Bilden är i svartvitt på en svart katt som sitter i en gränd. Katten ser ensam ut.">
 
 
     </div>
   </div>
 </body>
+
 <?php
 
-
 require __DIR__ . '/footer.php';
+
 ?>
