@@ -108,42 +108,42 @@ $cities = [
 
 $adoptedCats = [
   [
-    'img' => '/Pictures/Cat11.webp',
+    'img' => '/Pictures/Cat11.jpg',
     'namn' => 'Lusse',
     'alt' => 'En vit katt med stora gula ögon och öppen mun som kollar ovanför kameran.',
   ],
   [
-    'img' => '/Pictures/Cat12.webp',
+    'img' => '/Pictures/Cat12.jpg',
     'namn' => 'Mimmi',
     'alt' => 'En katt som ligger på en trästol och tar det lugnt. Katten är grå med lite vitt i ansiktet.',
   ],
   [
-    'img' => '/Pictures/Cat13.webp',
+    'img' => '/Pictures/Cat13.jpg',
     'namn' => 'Simba',
     'alt' => 'En orange katt som ligger ner på golvet och blundar.',
   ],
   [
-    'img' => '/Pictures/Cat14.webp',
+    'img' => '/Pictures/Cat14.jpg',
     'namn' => 'Missan',
     'alt' => 'En vit och orange katt som sitter i ett fönster.',
   ],
   [
-    'img' => '/Pictures/Cat15.webp',
+    'img' => '/Pictures/Cat15.jpg',
     'namn' => 'Herr frukt',
     'alt' => 'En randig katt som är svart och brunhårig som ligger ner i soffan och kollar rakt fram.',
   ],
   [
-    'img' => '/Pictures/Cat16.webp',
+    'img' => '/Pictures/Cat16.jpg',
     'namn' => 'Snorklan',
     'alt' => 'En helgrå katt med grön/gula ögon som sitter på golvet och kollar upp över kameran.',
   ],
   [
-    'img' => '/Pictures/Cat17.webp',
+    'img' => '/Pictures/Cat17.jpg',
     'namn' => 'Mumin',
     'alt' => 'En orange och vit katt med gröna ögon som sitter i en korg med tassarna fram.',
   ],
   [
-    'img' => '/Pictures/Cat18.webp',
+    'img' => '/Pictures/Cat18.jpg',
     'namn' => 'Saffran',
     'alt' => 'En vit katt med brun/gråa fläckar som går mot kameran med svansen upp i luften.',
   ],
