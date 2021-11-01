@@ -49,7 +49,7 @@ $cats = [
     'kastrerad' => 'ja',
   ],
   [
-    'img' => '/Pictures/Cat8.jpg',
+    'img' => '/Pictures/Cat9.jpg',
     'alt' => 'En orange katt som står på golvet och sträcker på sig med framtassarna sträckta rakt fram och ståendes på bakbenen',
     'namn' => 'Curry',
     'ras' => 'Huskatt',
@@ -58,7 +58,7 @@ $cats = [
     'kastrerad' => 'ja',
   ],
   [
-    'img' => '/Pictures/Cat9.jpg',
+    'img' => '/Pictures/Cat19.jpg',
     'alt' => 'En katt som sitter på ett staket utomhus med träd i bakgrunden. Katten är brun och randig med gula ögon.',
     'namn' => 'Max',
     'ras' => 'Huskatt',
@@ -67,7 +67,7 @@ $cats = [
     'kastrerad' => 'ja',
   ],
   [
-    'img' => '/Pictures/Cat10.jpg',
+    'img' => '/Pictures/Cat8.jpg',
     'alt' => 'En vit/grå katt som halvsitter i en grå soffa och kollar ner mot marken.',
     'namn' => 'Mr Mjau',
     'ras' => 'Ragdoll',
