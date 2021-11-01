@@ -16,15 +16,18 @@ require __DIR__ . '/functions.php';
       <img class="headPicture" src="/Pictures/Cat2.jpg" alt="En bild på en svart och en ljushårig katt som sitter nära vaarandra och kollar åt sidan båda två.">
 
 
-      <p class="aboutUs"><?php echo $Title ?> är en ideell förening som arbetar med att förbättra livet och hitta nya hem åt hemlösa katter. Enligt oss är alla katters liv värda lika mycket och avlivning kommer i absolut sista hand. På grund utav detta är våra veterinärkostnader höga och vi tar tacksamt emot gåvor via swish eller bank-giro.
+      <article class="aboutUs">
+        <h2>Om oss</h2><br>
+        <p class="aboutUsText">
+          <?php echo $Title ?> är en ideell förening som arbetar med att förbättra livet och hitta nya hem åt hemlösa katter. Enligt oss är alla katters liv värda lika mycket och avlivning kommer i absolut sista hand. På grund utav detta är våra veterinärkostnader höga och vi tar tacksamt emot gåvor via swish eller bank-giro.
 
 
-        <br>
-        <br>
-        Just nu finns det <?php echo $countCats; ?> katter hos oss för omplacering. Du kan läsa mer om katterna nedanför.
+          <br>
+          <br>
+          Just nu finns det <?php echo $countCats; ?> katter hos oss för omplacering. Du kan läsa mer om katterna nedanför.
 
-
-      </p>
+        </p>
+      </article>
       <?php
 
 

@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="/Style/style.css" />
   <link rel="stylesheet" href="/Style/textStyle.css" />
   <link rel="stylesheet" href="/Style/imageStyle.css" />
-  <link rel="stylesheet" href="/Style/mediaQueryStyle.css" />
   <link rel="stylesheet" href="/Style/footer.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
