@@ -15,11 +15,12 @@ This is our first school project that we upload on github. My website is about h
 
 Code review written by [Neo Lejondahl](https://github.com/NeoIsRecursive).
 
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-2. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-3. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-4. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-5. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
+1. `arrays.php:$cats` The castrated value could be a boolean, instead of a string.
+2. `footer.php` Right now you are putting everything in a `<p>` tag, maybe a `<ul>` for the cities?
+3. `functions.php:28 informationSaved` Do you really need the $animal variable, will there be a different animal?
+4. `functions.php:33-45` Some variables have a capital first letter others don't, maybe change to lowercase.
+5. `directories` I think you could have made som folders for your php files, ex a 'functions' folder with the functions.php & arrays.php in it.
+6. `readability` Your code is very nice to look at and well structured, good job!
 
 # Testers
 
